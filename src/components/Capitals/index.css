@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capitals-card-container {
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 16px;
+}
+.main-heading {
+  color: #1e293b;
+  font-weight: 26px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.select-capitals-container {
+  display: flex;
+
+  align-items: center;
+}
+.capitals-box {
+  width: 200px;
+  height: 35px;
+  border: 2px solid #cbd2d9;
+  border-radius: 5px;
+  color: #323f4b;
+  font-weight: 500;
+  font-size: 18px;
+}
+.capital-extend-text {
+  font-size: 23px;
+  color: #000000;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.result-country-name {
+  font-size: 25px;
+  color: #1e293b;
+  font-weight: 600;
+}
